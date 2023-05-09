@@ -33,11 +33,24 @@
     </div>
   </div>
 </nav>
-<main class="container d-flex flex-wrap">
-  <div class="alert alert-light">
-    <a class="is-warning" href="index.html">Back to Results</a>
+<main class="container">
+  <div class="alert alert-secondary bg-secondary my-3">
+    <a class="text-warning" href="index.html">Back to Results</a>
   </div>
-  <img class="mx-2" alt="Movie 1" src="images/Iron%20Man%20(2008).jpeg" width="300">
+  <section class="d-flex">
+    <aside><img class="mx-2" alt="Movie 1" src="images/Iron%20Man%20(2008).jpeg" width="300"></aside>
+    <article>
+      <h1>Iron Man</h1>
+      <h2>Released May 2, 2008</h2>
+      <p><span class="genre">Action, Adventure, Sci-Fi</span> | <span class="actors">Robert Downey Jr., Gwyneth Paltrow, Terrence Howard</span></p>
+      <p>After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.</p>
+    </article>
+  </section>
+  <section class="w-50 my-4">
+    <label class="form-label" for="comment">Leave a comment</label>
+    <textarea class="form-control" name="comment" id="comment" rows="4"></textarea>
+    <button class="btn btn-primary mt-2" type="button">Submit</button>
+  </section>
 </main>
 </body>
 </html>
